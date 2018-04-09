@@ -9,10 +9,12 @@ const serverUsage = require("./index.js");
  // GET TGE CURRENT CPU USAGE AVERAGE
  serverUsage.GetCpuUsage( function(usage){
     console.log(`Current CPU Usage => ${usage} % \n`)
+    GetCPUAvg();
    
 });
 
-// GET LAST 1, 5 AND 15 MINUTES USAGE AVG OF CPU SEPERATELY
+function GetCPUAvg() {
+    // GET LAST 1, 5 AND 15 MINUTES USAGE AVG OF CPU SEPERATELY
 console.log(`\nLast 1 Minute: ${serverUsage.cpuLoadAvg.loadavg1().Last1Minute} %\n`);
 console.log(`\nLast 5 Minute: ${serverUsage.cpuLoadAvg.loadavg5().Last5Minutes} %\n`);
 console.log(`\nLast 15 Minute: ${serverUsage.cpuLoadAvg.loadavg15().Last15Minutes} %\n`);
@@ -31,3 +33,5 @@ if(avgLoad){
     
 }else
 console.log('Avg cannot be calculated at this time!')
+
+}
