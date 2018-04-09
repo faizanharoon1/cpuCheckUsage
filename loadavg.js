@@ -116,9 +116,9 @@ function loadavgcalc(cpu_time, option) {
   RESULT_AVG_OF_1 = (100 * RESULT_AVG_OF_1).toFixed(4);
   RESULT_AVG_OF_5 = (100 * RESULT_AVG_OF_5).toFixed(4);
   RESULT_AVG_OF_15 = (100 * RESULT_AVG_OF_15).toFixed(4);
-  console.log(RESULT_AVG_OF_15);
-  console.log(RESULT_AVG_OF_5);
-  console.log(RESULT_AVG_OF_1);
+  // console.log(RESULT_AVG_OF_15);
+  // console.log(RESULT_AVG_OF_5);
+  // console.log(RESULT_AVG_OF_1);
   console.log("=====");
 }
 function cpuloadavglinux()
