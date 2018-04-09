@@ -1,0 +1,15 @@
+{
+  "name": "cpucheck",
+  "version": "1.0.0",
+  "description": "CPU Usage library",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Faizan H",
+  "license": "MIT",
+  "dependencies": {
+    "os": "^0.1.1",
+    "underscore": "^1.8.3"
+  }
+}
