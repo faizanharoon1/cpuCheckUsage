@@ -2,7 +2,7 @@
 NodeJs based app to check CPU usage (Current &amp; Avg), Memory Usage. (Windows &amp; Linux).
 I implemented this small app to impelemnt some functionality with native lib of NodeJs called OS.
 
-Steps..
+# Steps..
 
 Run Node test.js 
 
