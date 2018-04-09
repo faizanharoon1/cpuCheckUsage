@@ -19,6 +19,8 @@ Then it will call a function to display all CPU Usage Avg for Last 1, 5 and 15 m
 Display Current CPU usage avg.%
 
 
-* IMPROVEMENTS NEEDED:
+
+------------------
+IMPROVEMENTS NEEDED:
 Make all func async to prevent locking on CPU.
 
